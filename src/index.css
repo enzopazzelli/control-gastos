@@ -8,11 +8,12 @@
 }
 
 body {
+   
     font-size: 1.6rem;
     font-family: "Lato", sans-serif;
     background-color: var(--gris-claro);
 }
-html {
+html { margin: 0;
     font-size: 62.5%;
     box-sizing: border-box;
 }
@@ -57,7 +58,7 @@ header h1 {
 }
 
 .formulario {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     padding: 10rem 0;
 }
@@ -145,8 +146,7 @@ header h1 {
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
 }
-.alerta.success {
-}
+
 
 .contenedor {
     width: 90%;
@@ -207,7 +207,7 @@ header h1 {
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
-    color: #DC2626;
+    color: #D62626;
 }
 .contenido-presupuesto span {
     font-weight: 900;
